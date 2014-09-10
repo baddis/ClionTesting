@@ -4,8 +4,9 @@
 using namespace std;
 
 int main() {
-  cout << "Hello, World!" << endl;
-    Foo f(12);
-  return 0;
+    Foo f(12, 0);
+    cout << "Hello, World! (" << f.square() << ")" << endl;
+    return 0;
+
 }
 
