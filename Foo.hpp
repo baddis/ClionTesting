@@ -6,7 +6,7 @@ private:
 public:
     Foo(int val1, int val2);
     ~Foo();
-    int square() {return i*i;};
+    int square();
 
     int getI() const {
         return i;
